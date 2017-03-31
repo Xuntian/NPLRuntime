@@ -6,8 +6,8 @@
 
 apt-get update 
 apt-get install -y build-essential cmake git-core
-#apt-get install  pkg-config mono-devel
-#apt-get install  mysql-client libmysqlclient-dev
+apt-get install  pkg-config mono-devel
+apt-get install  mysql-client libmysqlclient-dev
 if [ "$CXX" = "g++" ]; then apt-get install -y g++-4.9; fi
 if [ "$CXX" = "g++" ]; then export CXX="g++-4.9" CC="gcc-4.9"; fi
 apt-get install -y libssl-dev libssh2-1-dev
