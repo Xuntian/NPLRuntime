@@ -22,8 +22,4 @@ cd boost_1_61_0
 ./bootstrap.sh --prefix=/usr/local --with-libraries="thread,date_time,filesystem,system,chrono,signals,serialization,iostreams,regex"
 ./b2 link=static threading=multi variant=release
 ./b2 install
-popd
 
-# Build with cmake 
-chmod +x ./build_linux.sh 
-./build_linux.sh
