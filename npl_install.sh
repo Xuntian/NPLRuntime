@@ -4,14 +4,14 @@
 # desc: To install dependencies, please see `.travis.yml` 
 # you can run line by line manually, or just run this file
 
-apt-get update 
-apt-get install -y build-essential cmake libcurl4-openssl-dev
+#apt-get update 
+#apt-get install -y build-essential cmake libcurl4-openssl-dev
 #apt-get install  pkg-config mono-devel
 #apt-get install  mysql-client libmysqlclient-dev
 #if [ "$CXX" = "g++" ]; then apt-get install -y g++-4.9; fi
 #if [ "$CXX" = "g++" ]; then export CXX="g++-4.9" CC="gcc-4.9"; fi
-apt-get install -y libssl-dev libssh2-1-dev libbz2-dev
-apt-get install -y freeglut3 freeglut3-dev libglew1.5 libglew1.5-dev libglu1-mesa libglu1-mesa-dev libgl1-mesa-glx libgl1-mesa-dev
+#apt-get install -y libssl-dev libssh2-1-dev libbz2-dev
+#apt-get install -y freeglut3 freeglut3-dev libglew1.5 libglew1.5-dev libglu1-mesa libglu1-mesa-dev libgl1-mesa-glx libgl1-mesa-dev
 
 # install boost from latest source url. boost version should be 1.55.0 or above
 mkdir ./bin -p
